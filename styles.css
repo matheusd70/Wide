@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 30px;
+    margin-left: 47px;
+}
+
+.link-header {
+    margin-right: 35px;
+    font-size: 20px;
+    line-height: 21px;
+    letter-spacing: 0.88px;
+    font-weight: 400;
+    color: #17233D;
+}
+
+.button-header {
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+}
+
+section {
+    display: inline-block;
+    margin-left: 87px;
+}
+
+img {
+    display: inline-block;
+    width: 595.18px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 136px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    width: 582px;
+    height: 164px;
+    color: #161A49;
+    margin-bottom: 56px;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    color: #4B505A;
+    margin-bottom: 50px;
+}
+
+.button-section {
+    background: transparent;
+    border: none;
+    width: 115px;
+    height: 50px;
+    font-weight: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #6FBf44;
+}
+
+@media screen and (max-width: 768px) {
+    a {
+        display: none;
+    }
+    .button-header {
+        display: block;
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+        margin-left: auto;
+        margin-right: 10px;
+    }
+    section {
+        display: block;
+        width: 40%;
+        height: auto;
+        position: relative;
+        bottom: 400px;
+        margin-left: 20%;
+        margin-right: 100px;
+        margin-bottom: 10px;
+        padding-top: 5px;
+        margin: auto;
+    }
+    h1 {
+        display: block;
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 20px;
+        
+    }
+    p {
+        width: 304px;
+        height: 165px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        align-items: center;
+        margin-bottom: 5px;
+        text-align: center;
+        
+    }
+    main {
+        display: block;
+        width: 90%;
+        height: 30%;
+        
+    }
+    img {
+        width: 90%;
+        margin: auto;
+        padding-left: 70px;
+        position: relative;
+        top: 450px;
+        margin-top: 10px;
+    }
+    
+    
+    .button-section {
+        background: transparent;
+        border: none;
+        width: 115px;
+        height: 50px;
+        font-weight: 50px;
+        font-size: 18px;
+        line-height: 50px;
+        letter-spacing: 1px;
+        color: #6FBf44;
+        text-align: center;
+        display: block;
+        margin: 0 auto; 
+    }
+    
+    
+}
